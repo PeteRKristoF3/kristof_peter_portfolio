@@ -1,0 +1,138 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #228B22 ;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+	min-width: 10%;
+	border-radius: 10px;
+	margin: 10px 0 0 0;
+}
+	   
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.egység1 span{
+	font-weight: 700;
+	font-size: 1.1 rem;
+}
+
+.egyenletesen{
+	justify-content: space-around;
+}
+
+.gomb{
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #6b6b6b;
+	background-color: white;
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	margin: .35rem .2rem;
+	border-radius: 0.5rem;
+	transition: .3s;
+	min-width: max-content;
+}
+
+.gomb:hover{
+	cursor: pointer;
+	background-color: lightgrey;
+}
+
+.gomb_jobbra{
+	float: right;
+}
+
+.fejléc{
+	background-color:#006400  ;
+	display: block;
+	padding: 0.2rem 1rem;
+	margin: 0;
+	user-select: none;
+}
+
+.clearfix::after{
+	content: "";
+  	clear: both;
+  	display: table;
+} 
+
+.egység{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+	grid-gap: 7%;
+	margin: 3rem 15%;
+}
+
+.egység1{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+	grid-gap: 1.5rem;
+	margin: 3rem 10%;
+}
+
+.kártya{
+		display: block;
+		background-color: lightgrey;
+		border-radius: .5rem;
+		padding: 1rem;
+		font-size: 1.2rem;
+}
+
+.kártya1{
+		display: block;
+		background-color: lightgrey;
+		border-radius: .5rem;
+		padding: 1rem;
+		text-align: center;
+}
+
+.kártya2{
+		display: block;
+		background-color: lightgrey;
+		border-radius: .5rem;
+		padding: 32px; 
+		text-align: center;
+		margin: 4rem auto;
+		max-width: 70%;
+}
+
+.kártya h1{
+	letter-spacing: 4px;
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+.kártya h2{
+	letter-spacing: 2px;
+	font-size: 1.5rem;
+	font-weight: 900;
+	color: #6b6b6b
+	text-align: center;
+}
+
+.cím h2{
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 2rem;
+}
+
+.balra{
+	text-align: left;
+}
+
